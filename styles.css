@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(42, 42, 42, 1);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+img {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.photos {
+    display: flex;
+    justify-content: center;
+}
+
+p.description {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+div.user {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
