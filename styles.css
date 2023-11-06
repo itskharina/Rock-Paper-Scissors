@@ -14,7 +14,7 @@ h2 {
     margin-top: 70px;
 }
 
-img {
+img, input {
     background-color: white;
     border-radius: 15px;
     margin-top: 70px;
@@ -27,14 +27,14 @@ div.photos {
     justify-content: center;
 }
 
-p.description {
+p.description, #results-el {
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
     margin-bottom: 0;
 }
 
-div.user {
+div.scores {
     display: flex;
     justify-content: space-around;
     font-size: 30px;
