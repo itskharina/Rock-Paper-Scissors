@@ -1,23 +1,18 @@
 body {
-    background-color: rgba(42, 42, 42, 1);
+    background: rgb(17,36,61);
+    background: linear-gradient(180deg, rgba(17,36,61,1) 30%, rgba(20,21,57,1) 100%);
     color: white;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed','Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
-    font-size: 45px;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    /* background-color: #474747; */
-    padding: 10px;
-}
-
-div.class {
-    background-color: aliceblue;
+    font-size: 2.6rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -26,7 +21,7 @@ h2 {
     margin-top: 70px;
 }
 
-img, input {
+img {
     background-color: white;
     border-radius: 15px;
     margin-top: 70px;
@@ -34,9 +29,51 @@ img, input {
     margin-right: 20px;
 }
 
-div.photos {
+button {
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 16s0px;
+}
+
+button#paper {
+    border: 15px solid rgb(173, 19, 19);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, inset rgba(23, 20, 5, 0.2) 2.95px 5.95px 1.1px
+}
+
+button#rock {
+    border: 15px solid rgb(19, 88, 218);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, inset rgba(23, 20, 5, 0.2) 2.95px 5.95px 1.1px
+}
+
+button#scissors {
+    border: 15px solid rgb(255, 153, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, inset rgba(23, 20, 5, 0.2) 2.95px 5.95px 1.1px
+}
+
+button:active{
+    transform: translateY(4px);
+}
+
+button + button {
+    margin-left: 50px;
+}
+
+i {
+    font-size: 5rem;
+    padding: 20px;
+    color: #11243d;
+}
+
+.photos {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 p.description, #results-el {
@@ -46,11 +83,53 @@ p.description, #results-el {
     margin-bottom: 0;
 }
 
-div.scores {
+.container {
+    width: 50%;
+    min-width: 520px;
     display: flex;
-    justify-content: space-around;
-    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px auto 0 auto;
+    border: 2px solid #606E85;
+    border-radius: 20px;
+
+}
+
+.scores {
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #3B4363;
+    display: flex;
+    gap: 10px;
     font-weight: bold;
     text-align: center;
-    margin-top: 100px;
 }
+
+.header {
+    padding: 0 30px;
+    width: 10%;
+    line-height: 2.3rem;
+}
+
+p {
+    margin: 0;
+}
+
+.user-title, .computer-title {
+    padding: 10px;
+    border-radius: 10px;
+    color: #2A46C0;
+}
+
+.user-score, .computer-score, .between {
+    font-size: 4rem;
+}
+
+.between {
+    margin-top: 35px;
+    margin-left: 10px;
+}
+

@@ -1,1 +1,1 @@
-A Rock, Paper, Scissors website as part of TOP
+Created a Rock, Paper, Scissors game as part of The Odin Project
