@@ -1,13 +1,12 @@
 let playerScore = document.querySelector('.user-score');
 let computerScore = document.querySelector('.computer-score');
 let resultsEl = document.getElementById('results-el');
-
-// Setting initial scores to 0
+let scissorsBtn = document.getElementById('scissors');
+let rockBtn = document.getElementById('rock');
+let paperBtn = document.getElementById('paper');
 
 let playerPoints = 0;
 let computerPoints = 0;
-
-// Making computer pick rock, paper or scissors randomly
 
 let computerSelection = ['rock', 'paper', 'scissors'];
 
@@ -29,7 +28,6 @@ function playRound(playerSelection, computerSelection) {
   ) {
     playerPoints++;
     resultsEl.textContent = 'You won!';
-    console.log('You won!');
     playerScore.textContent = playerPoints;
   } else if (
     (computerSelection === 'rock' && playerSelection === 'scissors') ||
@@ -38,14 +36,9 @@ function playRound(playerSelection, computerSelection) {
   ) {
     computerPoints++;
     resultsEl.textContent = 'The computer won!';
-    console.log('The computer won!');
     computerScore.textContent = computerPoints;
   }
 }
-
-let scissorsBtn = document.getElementById('scissors');
-let rockBtn = document.getElementById('rock');
-let paperBtn = document.getElementById('paper');
 
 // Making the rock, paper, scissors buttons play the game when clicked
 
