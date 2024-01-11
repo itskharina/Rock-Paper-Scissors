@@ -8,6 +8,8 @@ let paperBtn = document.getElementById('paper');
 let playerPoints = 0;
 let computerPoints = 0;
 
+// Making computer pick rock, paper or scissors randomly
+
 let computerSelection = ['rock', 'paper', 'scissors'];
 
 function getcomputerSelection() {
