@@ -10,41 +10,45 @@
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <h1>ROCK PAPER SCISSORS</h1>
-        </header>
-        <div class="scores">
-            <div class="user-section">
-                <p class="user-title">PLAYER</p>
-                <p class="user-score">0</p>
-            </div>
-            <div class="between">:</div>
-            <div class="computer-section">
-                <p class="computer-title">COMPUTER</p>
-                <p class="computer-score">0</p>
+    <header>
+        <div class="container">
+            <header class="header">
+                <h1>ROCK PAPER SCISSORS</h1>
+            </header>
+            <div class="scores">
+                <div class="user-section">
+                    <p class="user-title">PLAYER</p>
+                    <p class="user-score">0</p>
+                </div>
+                <div class="between">:</div>
+                <div class="computer-section">
+                    <p class="computer-title">COMPUTER</p>
+                    <p class="computer-score">0</p>
+                </div>
             </div>
         </div>
-    </div>
-    <p id="results-el">Click rock, paper or scissors to start!</p>
-    <div class="photos">
-        <button type="button" id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
-        <button type="button" id="paper"><i class="fa-solid fa-hand"></i></button>
-        <button type="button" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
-    </div>
-    <div class="rules">
-        <button type="button" class="rules-btn">RULES</button>
-    </div>
-    <div class="background hidden">
-        <div class="modal">
-            <div class="titleContainer">
-                <h2 class="modal-title">RULES</h2>
-                <button class="exit">&times;</button>
-            </div>
-            <img src="./svg/image-rules.svg" alt="image of the rules" class="modal-image">
+        <p id="results-el">Click rock, paper or scissors to start!</p>
+    </header>
+    <main>
+        <div class="photos">
+            <button type="button" id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button type="button" id="paper"><i class="fa-solid fa-hand"></i></button>
+            <button type="button" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
         </div>
-    </div>
+        <div class="rules">
+            <button type="button" class="rules-btn">RULES</button>
+        </div>
+        <div class="background hidden">
+            <div class="modal">
+                <div class="title-container">
+                    <h2 class="modal-title">RULES</h2>
+                    <button class="exit">&times;</button>
+                </div>
+                <img src="./svg/image-rules.svg" alt="image of the rules" class="modal-image">
+            </div>
+        </div>
+    </main>
 </body>
 <script src="https://kit.fontawesome.com/f9007cbfa6.js" crossorigin="anonymous"></script>
-<script src="index.js"></script>
+<script src="main.js"></script>
 </html>
