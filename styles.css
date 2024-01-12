@@ -125,7 +125,7 @@ button#scissors {
     box-shadow: inset rgba(23, 20, 5, 0.2) 2.95px 5.95px 1.1px, 0 6px 0px rgb(192, 128, 32);
 }
 
-button:active{
+.photos button:active, button:active{
     transform: translateY(4px);
 }
 
