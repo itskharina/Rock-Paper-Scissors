@@ -21,7 +21,10 @@ Users should be able to:
 
 ### Screenshots
 
+#### Desktop
 ![](./desktop.png)
+
+#### Mobile
 ![](./mobile.png)
 
 ## My process
