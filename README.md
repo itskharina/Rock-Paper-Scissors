@@ -2,7 +2,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -19,7 +19,7 @@ Users should be able to:
 - Play Rock, Paper, Scissors against the computer
 - See their score as well as the computer's score
 
-### Screenshot
+### Screenshots
 
 ![](./desktop.png)
 
