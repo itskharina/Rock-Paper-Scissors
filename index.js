@@ -1,9 +1,12 @@
-let playerScore = document.querySelector('.user-score');
-let computerScore = document.querySelector('.computer-score');
-let resultsEl = document.getElementById('results-el');
-let scissorsBtn = document.getElementById('scissors');
-let rockBtn = document.getElementById('rock');
-let paperBtn = document.getElementById('paper');
+const playerScore = document.querySelector('.user-score');
+const computerScore = document.querySelector('.computer-score');
+const resultsEl = document.querySelector('#results-el');
+const scissorsBtn = document.querySelector('#scissors');
+const rockBtn = document.querySelector('#rock');
+const paperBtn = document.querySelector('#paper');
+const rulesBtn = document.querySelector('.rules-btn');
+const closeBtn = document.querySelector('.exit');
+const modal = document.querySelector('.background');
 
 let playerPoints = 0;
 let computerPoints = 0;
@@ -88,5 +91,15 @@ function resetScore() {
   computerScore.textContent = 0;
   playerScore.textContent = 0;
 }
+
+// Rules button
+rulesBtn.addEventListener('click', function () {
+  modal.classList.remove('hidden');
+});
+
+// Close button
+closeBtn.addEventListener('click', function () {
+  modal.classList.add('hidden');
+});
 
 playGame();

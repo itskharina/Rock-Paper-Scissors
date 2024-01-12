@@ -13,32 +13,10 @@ body {
     overflow-x: hidden;
 }
 
-.rules {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-    margin-top: 50px;
-}
-
-button.rules-btn {
-    border: 2px solid white;
-    background-color: transparent;
-    padding: 10px;
-    color: white;
-    border-radius: 8px;
-    font-size: 1rem;
-    width: 120px;
-}
 
 h1 {
     font-size: 2.6rem;
     font-weight: 700;
-}
-
-h2 {
-    text-align: center;
-    font-size: 40px;
-    margin-top: 70px;
 }
 
 img {
@@ -79,7 +57,6 @@ button#scissors {
     box-shadow: inset rgba(23, 20, 5, 0.2) 2.95px 5.95px 1.1px, 0 6px 0px rgb(192, 128, 32);
 }
 
-
 button:active{
     transform: translateY(4px);
 }
@@ -113,7 +90,7 @@ i {
     height: 100%;
     left: 27%;
     top: 28%;
-    background: url('bg-triangle.svg');
+    background: url('./svg/bg-triangle.svg');
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -173,6 +150,79 @@ p {
 .between {
     margin-top: 38px;
     margin-left: 10px;
+}
+
+/* rules button and modal */
+
+.rules {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+button.rules-btn {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 120px;
+    cursor: pointer;
+}
+
+.modal {
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 180px;
+    height: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #3B4363;
+}
+
+button.exit {
+    border: none;
+    font-size: 3rem;
+    background-color: transparent;
+    color: #3B4363;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    margin: 50px auto 10px auto;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hidden {
+    display: none;
 }
 
 @media screen and (max-width: 670px) {
