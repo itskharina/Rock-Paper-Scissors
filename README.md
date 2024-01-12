@@ -1,3 +1,32 @@
-Created a Rock, Paper, Scissors game using HTML, CSS and JavaScript as part of The Odin Project
+## Table of contents
 
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+
+## Overview
+
+### The challenge
+
+Created a Rock, Paper, Scissors game as part of [The Odin Project](https://www.theodinproject.com), while taking design inspiration from [Frontend Mentor](https://www.frontendmentor.io)
 Live demo: https://itskharina.github.io/Rock-Paper-Scissors/
+
+Users should be able to:
+
+- View the optimal layout for the game depending on their device's screen size
+- Play Rock, Paper, Scissors against the computer
+- See their score as well as the computer's score
+
+### Screenshot
+
+![](./desktop.png)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS (Grid and Flexbox)
+- JavaScript
