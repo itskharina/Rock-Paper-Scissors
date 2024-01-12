@@ -21,11 +21,7 @@ Users should be able to:
 
 ### Screenshots
 
-#### Desktop
 ![<img src="./desktop.png" width="400"/>](./desktop.png)
-
-#### Mobile
-![<img src="./mobile.png" width="400"/>](./mobile.png)
 
 ## My process
 
