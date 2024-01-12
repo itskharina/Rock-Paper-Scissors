@@ -10,8 +10,8 @@
 
 ### The challenge
 
-Created a Rock, Paper, Scissors game as part of [The Odin Project](https://www.theodinproject.com), while taking design inspiration from [Frontend Mentor](https://www.frontendmentor.io)
-Live demo: https://itskharina.github.io/Rock-Paper-Scissors/
+- Created a Rock, Paper, Scissors game as part of [The Odin Project](https://www.theodinproject.com), while taking design inspiration from [Frontend Mentor](https://www.frontendmentor.io)
+- Live demo: https://itskharina.github.io/Rock-Paper-Scissors/
 
 Users should be able to:
 
@@ -22,6 +22,7 @@ Users should be able to:
 ### Screenshots
 
 ![](./desktop.png)
+![](./mobile.png)
 
 ## My process
 
